@@ -12,7 +12,7 @@ const path = params.get('path');
 
 image.src = path;
 
-image.onload = () => {
+image.onload = function () {
   const viewer = create360Viewer({
     image
   });
